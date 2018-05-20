@@ -1,0 +1,15 @@
+defutf8 on
+defencoding utf8
+encoding utf8 utf8
+
+startup_message off
+vbell off
+
+escape \
+
+termcapinfo xterm* ti@:te@
+
+altscreen on
+
+caption always "%S"
+hardstatus alwayslastline "%{= k.}%-w%{=bu }*%n %t%{-}%+w"
